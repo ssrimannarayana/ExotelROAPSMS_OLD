@@ -1,0 +1,11 @@
+com\kgl\KglServices\controller\CallrecordingApiController.class
+com\kgl\KglServices\utility\Utility.class
+com\kgl\KglServices\config\AsyncConfig.class
+com\kgl\KglServices\model\PhonepeObj.class
+com\kgl\KglServices\controller\CallrecordingApiController$1.class
+com\kgl\KglServices\model\CampaignPojo.class
+com\kgl\KglServices\model\ScriptObj.class
+com\kgl\KglServices\ServletInitializer.class
+com\kgl\KglServices\model\PhonepeResponseObj.class
+com\kgl\KglServices\KglServicesApplication.class
+com\kgl\KglServices\services\PhonePeServcies.class
