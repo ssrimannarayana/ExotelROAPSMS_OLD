@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.kgl</groupId>
-	<artifactId>Exotel</artifactId>
+	<artifactId>ROAPSMS</artifactId>
 	<version>1</version>
 	<packaging>war</packaging>
-	<name>ExotelCampaigns</name>
+	<name>ExotelROAPSMS</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
