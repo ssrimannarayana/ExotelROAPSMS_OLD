@@ -306,7 +306,7 @@ public class PhonePeServcies {
 
 	public void updateSmsCallBackApiIntoAppSheet(String id, String smsCampaignSid, String created_time,
 			String last_viewed, String total_clicks, String device, String region, String city, String accuracy_radius,
-			String method, String campaignSheet) {
+			String method) {
 		String url = ROAP_SMS_UPDATE_GOOGLESHEET_URL;
 		MultiValueMap<String, String> map = new LinkedMultiValueMap<String, String>();
 		map.add("id", id);

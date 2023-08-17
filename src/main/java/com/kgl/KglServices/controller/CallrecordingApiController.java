@@ -299,9 +299,9 @@ public class CallrecordingApiController {
 		return respStatus;
 	}
 
-	@RequestMapping(path = "/exotelSmsCallBack/{id}/{campaignSheet}", method = RequestMethod.POST, consumes = {
+	@RequestMapping(path = "/exotelSmsCallBack/{id}", method = RequestMethod.POST, consumes = {
 			MediaType.APPLICATION_JSON_VALUE })
-	public void exotelSmsCallBack(@PathVariable String id, @PathVariable String campaignSheet,
+	public void exotelSmsCallBack(@PathVariable String id,
 			@RequestBody String callBackResponse) throws ParseException {
 		logger.info("Method:exotelSmsCallBack1");
 		JSONObject jobj = jsonParsing(callBackResponse);
@@ -319,7 +319,7 @@ public class CallrecordingApiController {
 		String ac_radius = String.valueOf(accuracy_radius);
 		try {
 			phpeServices.updateSmsCallBackApiIntoAppSheet(id, smsCampaignSid, created_time, last_viewed, total_clk,
-					device, region, city, ac_radius, "SmsCallBack", campaignSheet);
+					device, region, city, ac_radius, "SmsCallBack");
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 		}
